@@ -10,6 +10,9 @@
     <RepositoryUrl>https://github.com/statisticssweden/PCAxis.Html5Table.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>PX</PackageTags>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <MinVerDefaultPreReleasePhase>beta</MinVerDefaultPreReleasePhase>
+    <MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>
   </PropertyGroup>
 
   <ItemGroup>
