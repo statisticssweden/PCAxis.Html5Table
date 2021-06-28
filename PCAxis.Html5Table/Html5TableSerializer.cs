@@ -17,7 +17,7 @@ namespace PCAxis.Html5Table
 
 		public void Serialize(PXModel model, string path)
 		{
-			if (model != null)
+			if (model == null)
 			{
 				throw new ArgumentNullException("model");
 			}
